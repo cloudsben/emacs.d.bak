@@ -1,0 +1,15 @@
+[submodule "mode/irblack-theme"]
+	path = mode/irblack-theme
+	url = git://github.com/jmdeldin/ir-black-theme.el.git
+[submodule "mode/powerline"]
+	path = mode/powerline
+	url = git://github.com/milkypostman/powerline.git
+[submodule "mode/php-mode"]
+	path = mode/php-mode
+	url = git://github.com/ejmr/php-mode.git
+[submodule "mode/web-mode"]
+	path = mode/web-mode
+	url = git://github.com/fxbois/web-mode.git
+[submodule "mode/yasnippet"]
+	path = mode/yasnippet
+	url = git://github.com/capitaomorte/yasnippet.git
