@@ -13,3 +13,6 @@
 [submodule "mode/yasnippet"]
 	path = mode/yasnippet
 	url = git://github.com/capitaomorte/yasnippet.git
+[submodule "mode/ido-goto-symbol.el"]
+	path = mode/ido-goto-symbol.el
+	url = https://gist.github.com/25642dd40c20135b7c2d.git

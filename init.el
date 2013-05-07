@@ -74,3 +74,5 @@
 
 ;; disabled console blink
 (setq ring-bell-function (lambda ()  t))
+
+(load "~/.emacs.d/mode/ido-goto-symbol.el/ido-goto-symbol.el")
