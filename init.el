@@ -2,6 +2,10 @@
 (let ((default-directory "~/.emacs.d/mode"))
       (normal-top-level-add-subdirs-to-load-path))
 
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "/Users/cloudsben/.emacs.d/mode/auto-complete/ac-dict")
+(ac-config-default)
+
 ;; turn off startup-message
 (setq inhibit-startup-message t)
 
