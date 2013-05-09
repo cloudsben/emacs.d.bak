@@ -33,7 +33,7 @@
 (setq auto-save-default nil)
 
 ;; set tool bar disabled
-(tool-bar-mode -1)
+;; (tool-bar-mode 0)
 
 ;; pair mode eg: () {} '' ""
 (electric-pair-mode t)
