@@ -42,9 +42,6 @@
 (show-paren-mode 1)
 
 ;; make tab indent chenge to space
-(setq-default tab-width 4)
-(setq-default indent-tabs-mode nil)
-(setq c-default-style "linux")
 
 (require 'powerline)
 (powerline-center-theme)
@@ -55,6 +52,7 @@
 ;; config default major mode not fundamental mode
 (setq default-major-mode 'text-mode)
 
+(setq-default indent-tabs-mode nil)
 ;; load php mode
 (require 'php-mode)
 
